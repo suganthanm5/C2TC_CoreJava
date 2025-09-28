@@ -1,4 +1,4 @@
-package Day_3;
+package Day_3.scannerdemo;
 
 public class Person {
 	private String name;
@@ -7,7 +7,7 @@ public class Person {
 	private int age;
 	private int tax;
 	
-	
+	//Getter and Setters
 	public int getTax() {
 		return tax;
 	}
@@ -39,9 +39,11 @@ public class Person {
 		this.age = age;
 	}
 	
-	
+	//Object class method to return string representation of Person object
+	@Override
 	public String toString() {
 		return "Person [name=" + name + ", income=" + income + ", gender=" + gender + ", age=" + age + ", tax="+tax+"]";
 	}
+	
 
 }

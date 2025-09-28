@@ -1,4 +1,4 @@
-package Day_3;
+package Day_3.encapsulation;
 
 public class OopsConceptDemo {
 	private int serialNum;
@@ -29,10 +29,11 @@ public class OopsConceptDemo {
 		this.age = age;
 	}
 
-	// Object class method - to returns string representation of the object
 	@Override
 	public String toString() {
 		return "OopsConceptDemo [Serial Number=" + serialNum + ", name=" + name + ", age=" + age + "]";
 	}
 
 }
+
+

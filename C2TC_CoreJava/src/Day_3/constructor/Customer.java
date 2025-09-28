@@ -1,19 +1,20 @@
-package Day_3;
+package Day_3.constructor;
 
 public class Customer {
-	private String customerName;
+	 private String customerName;
 	 private int customerId;
 	 private String customerCity;
 	 
-	
+	// Default Constructor
 	public Customer() {
 		System.out.println("Default Constructor");
 	}
 	
-	
+	//Parameterized Constructor
+	//use of this keyword
 	public Customer(String customerName, int customerId, String customerCity) {
 		
-		this(); 
+		this(); //calling default constructor
 		
 		System.out.println("Parameterized Constructor");
 		this.customerName = customerName;
@@ -51,7 +52,5 @@ public class Customer {
 		return "Customer [customerName=" + customerName + ", customerId=" + customerId + ", customerCity="
 				+ customerCity + "]";
 	}
+
 }
-
-	
-

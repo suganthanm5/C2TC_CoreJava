@@ -1,4 +1,4 @@
-package Day_3;
+package Day_3.scannerdemo;
 
 public class TaxCalculation {
 	public void calculateTax(Person person) {
@@ -17,6 +17,6 @@ public class TaxCalculation {
 			}
 		}
 	}
+	
+
 }
-
-
