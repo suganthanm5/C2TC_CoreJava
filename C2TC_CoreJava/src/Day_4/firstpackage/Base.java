@@ -1,13 +1,13 @@
 package Day_4.firstpackage;
 
 public class Base {
-	int varDefault=10;
+	public int varDefault=10;
 	public int varPublic=20;
-	protected int varProtected=40;
+	public int varProtected=40;
 	
 	
 
-	void methodDefault()
+	public void methodDefault()
 	{
 		System.out.println("Default access Base class");
 		System.out.println("Default Variable : "+varDefault);
@@ -19,7 +19,7 @@ public class Base {
 		System.out.println("Public Variable : "+varPublic);
 	}
 	
-	protected void methodProtected()
+	public void methodProtected()
 	{
 		System.out.println("Protected access Base class");
 		System.out.println("Protected Variable : "+varProtected);

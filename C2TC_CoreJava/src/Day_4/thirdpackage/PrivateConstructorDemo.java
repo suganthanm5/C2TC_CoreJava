@@ -3,6 +3,7 @@ package Day_4.thirdpackage;
 public class PrivateConstructorDemo {
 	public static void main(String s[]) {
 		
+		
 		MyClass m=MyClass.getObject();
 		m.setId(10);
 		

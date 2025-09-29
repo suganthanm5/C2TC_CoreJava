@@ -18,7 +18,7 @@ public class MyClass {
 		System.out.println("MyClass object created");		
 	}
 	
-	public static MyClass getObject() 
+	public static MyClass getObject() //factory method
 	{
 		return obj;
 	}
@@ -27,8 +27,5 @@ public class MyClass {
 	public String toString() {
 		return "MyClass [id=" + id + "]";
 	}
-	
+
 }
-
-
-
